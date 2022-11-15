@@ -12,7 +12,7 @@ h1 {
 
 p {
   color: #fff;
-  padding-left: 1%;
+
 }
 
 h2 {
@@ -21,7 +21,7 @@ h2 {
 }
 
 .degrade-angulaire {
-  background: linear-gradient(70deg, blue, pink);
+  background-color: black;
 }
 
 body {
@@ -37,13 +37,15 @@ div {
 article {
   border: thick double #32a1ce;
  flex-basis: 49%;
- padding-bottom: 50%;
+ padding-bottom: 20%;
 }
 
 .art2 {
   margin-left: 1%;
-  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
-                  url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.avisto.com%2Ffr%2Fpentest-lab%2F&psig=AOvVaw1jhTOv532RHS5DrhhBUrwy&ust=1668604459504000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCLCv8JaisPsCFQAAAAAdAAAAABAD");
+  background-image:
+  linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+  url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.avisto.com%2Ffr%2Fpentest-lab%2F&psig=AOvVaw1jhTOv532RHS5DrhhBUrwy&ust=1668604459504000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCLCv8JaisPsCFQAAAAAdAAAAABAD");
+
 }
 
 .art1 {
@@ -51,4 +53,13 @@ article {
   background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5))
 
 }
+
+#titre {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+button:hover{ position: relative; 
+  top: -10%;} 
 
