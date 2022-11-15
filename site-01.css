@@ -243,7 +243,7 @@ height: 400px;
 
 .box2 span:nth-child(2)
 {
-  transform:rotate(90deg);
+  transform:rotate(94deg);
 }
 
 .box2 span:nth-child(3)
@@ -253,7 +253,7 @@ height: 400px;
 
 .box2 span:nth-child(4)
 {
-  transform:rotate(270deg);
+  transform:rotate(266deg);
 }
 
 .box2 span:before
@@ -292,3 +292,15 @@ height: 400px;
   
   
 } 
+#cyber {
+  font-size: 40px;
+}
+
+a:hover
+{
+font-size: 20pt; /* essayes avec 120% ca peut peut-être marché */
+}
+
+#cyber:hover {
+  font-size: 35pt;
+}
