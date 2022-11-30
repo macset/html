@@ -31,6 +31,7 @@ body {
 
 div {
   display: flex;
+  margin: auto 15%;
 
 }
 
@@ -44,7 +45,7 @@ article {
   margin-left: 1%;
   background-image:
   linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
-  url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.avisto.com%2Ffr%2Fpentest-lab%2F&psig=AOvVaw1jhTOv532RHS5DrhhBUrwy&ust=1668604459504000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCLCv8JaisPsCFQAAAAAdAAAAABAD");
+  url("");
 
 }
 
@@ -63,3 +64,10 @@ article {
 button:hover{ position: relative; 
   top: -10%;} 
 
+
+body{
+  background-image: url("https://media1.giphy.com/media/3o85xBNoh8SRveXDoI/giphy.gif?cid=ecf05e47rvs1apmq48r0tue7r6ygj6gttsysgbqm5n0jv74o&rid=giphy.gif&ct=g");
+  background-repeat: repeat -2;
+  background-size: 50%;
+
+}
